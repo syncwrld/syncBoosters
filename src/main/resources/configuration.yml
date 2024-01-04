@@ -1,0 +1,18 @@
+# SyncBoosters - by syncwrld #
+#   www.github.com/syncwrld  #
+
+database:
+  type: 'MySQL' # MySQL or SQLite - Apenas MySQL suportado por enquanto
+  host: 'localhost:3306'
+  database: 'syncBoosters'
+  username: 'root'
+  password: 'myPassword'
+
+# Hooks Ativados #
+hooks:
+  ystoreplugins:
+    yspawnersv2:
+      register: true
+    yminas:
+      register: true
+      type: permanent

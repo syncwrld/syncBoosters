@@ -1,0 +1,17 @@
+name: syncBoosters
+version: '${project.version}'
+main: me.syncwrld.boosters.BoostersEngine
+api-version: '1.20'
+
+softdepend:
+  - yPlugins
+  - ySpawnersV2
+  - yMinas
+  - yAlmas
+  - ySimplePesca
+  - yPesca
+  - yNewBosses
+  - yPlantacoes
+  - yCampo
+  - yRankup
+  - yTempo
